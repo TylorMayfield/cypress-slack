@@ -1,0 +1,25 @@
+{
+  "name": "cypress-slack",
+  "version": "1.0.0",
+  "description": "Cypress slack plugin to send messages from within a test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylorMayfield/cypress-slack.git"
+  },
+  "keywords": [
+    "slack",
+    "cypress",
+    "testing",
+    "automation"
+  ],
+  "author": "Tylor Mayfield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TylorMayfield/cypress-slack/issues"
+  },
+  "homepage": "https://github.com/TylorMayfield/cypress-slack#readme"
+}
