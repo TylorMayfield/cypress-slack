@@ -21,5 +21,4 @@ require('cypress-slack');
         slackId: '{SlackIncomingWebhookId}',
         message: 'This is a test',
       });
-      ```
 ````
