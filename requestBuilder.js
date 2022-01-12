@@ -1,5 +1,5 @@
 class RequestBuilder {
-  constructor() {
+  constructor(parameters) {
     this.baseUrl = 'https://hooks.slack.com/services/';
     this.headers = {
       Accept: 'application/json',
@@ -18,7 +18,6 @@ class RequestBuilder {
     return {
       username: 'Cypress-Slack',
       icon_emoji: ':heart:',
-      icon_url: 'https://th.bing.com/th/id/OIP.cSD32quvq1Cpc0EfvJekRwHaHa?w=198&h=198&c=7&r=0&o=5&dpr=1.1&pid=1.7',
     };
   }
 
@@ -36,8 +35,9 @@ class RequestBuilder {
     return cy.request(options).its('body');
   }
 
-  post(body) {
-    return this.request('POST', body);
+  post(parameters) {
+    cy.log(parameters);
+    return this.request('POST', parameters);
   }
 }
 

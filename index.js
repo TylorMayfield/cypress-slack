@@ -4,8 +4,8 @@ const Request = require('./requestBuilder');
 let requester = new Request();
 
 const slack = (parameters) => {
-  requester.post('', parameters);
   cy.log(`Sent message: ${parameters.message}`);
+  requester.post(parameters);
 };
 
 Cypress.Commands.add('slack', slack);
