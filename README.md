@@ -1,3 +1,5 @@
+[![Node.js Package](https://github.com/TylorMayfield/cypress-slack/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/TylorMayfield/cypress-slack/actions/workflows/npm-publish.yml)
+
 # cypress-slack
 
 Cypress slack plugin to send messages from within a test
